@@ -3,13 +3,13 @@ entries:
   abc-iot-cep-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-04T10:27:13.054021+09:00"
+    created: "2024-10-04T13:11:16.592081+09:00"
     description: A Helm chart for Kubernetes
     digest: 647bb57196d1671d9cb745859fe45a3725894d3df27088ffb9f12af89f8041e1
     name: abc-iot-cep-service
     type: application
     urls:
-    - cw-20022684.github.io/coway-charts/abc-iot-cep-service-0.1.0.tgz
+    - https://cw-20022684.github.io/coway-charts/abc-iot-cep-service-0.1.0.tgz
     version: 0.1.0
   argo-cd:
   - annotations:
@@ -21,7 +21,7 @@ entries:
         url: https://argoproj.github.io/argo-helm/pgp_keys.asc
     apiVersion: v2
     appVersion: v2.12.3
-    created: "2024-10-04T10:27:13.061121+09:00"
+    created: "2024-10-04T13:11:16.600572+09:00"
     dependencies:
     - condition: redis-ha.enabled
       name: redis-ha
@@ -45,17 +45,17 @@ entries:
     - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
     - https://github.com/argoproj/argo-cd
     urls:
-    - cw-20022684.github.io/coway-charts/argo-cd-7.5.0.tgz
+    - https://cw-20022684.github.io/coway-charts/argo-cd-7.5.0.tgz
     version: 7.5.0
   iocare-cep-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-04T10:27:13.061944+09:00"
+    created: "2024-10-04T13:11:16.601288+09:00"
     description: A Helm chart for Kubernetes
     digest: fa4889af186df01f100cd122b31d9329f855bd209158e281692fae2ca3efee0d
     name: iocare-cep-service
     type: application
     urls:
-    - cw-20022684.github.io/coway-charts/iocare-cep-service-0.1.0.tgz
+    - https://cw-20022684.github.io/coway-charts/iocare-cep-service-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-04T10:27:13.053302+09:00"
+generated: "2024-10-04T13:11:16.591404+09:00"
